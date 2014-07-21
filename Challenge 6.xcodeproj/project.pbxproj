@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		3512917A197CDCE600569089 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35129179197CDCE600569089 /* main.m */; };
 		3512917D197CDCE600569089 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3512917C197CDCE600569089 /* AppDelegate.m */; };
-		35129180197CDCE600569089 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3512917F197CDCE600569089 /* ViewController.m */; };
 		35129183197CDCE600569089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35129181197CDCE600569089 /* Main.storyboard */; };
 		35129185197CDCE600569089 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35129184197CDCE600569089 /* Images.xcassets */; };
 		35129191197CDCE600569089 /* Challenge_6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35129190197CDCE600569089 /* Challenge_6Tests.m */; };
+		3512919C197CDF0200569089 /* EPCYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3512919B197CDF0200569089 /* EPCYTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 		35129179197CDCE600569089 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3512917B197CDCE600569089 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3512917C197CDCE600569089 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3512917E197CDCE600569089 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3512917F197CDCE600569089 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		35129182197CDCE600569089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35129184197CDCE600569089 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3512918A197CDCE600569089 /* Challenge 6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Challenge 6Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3512918F197CDCE600569089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35129190197CDCE600569089 /* Challenge_6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Challenge_6Tests.m; sourceTree = "<group>"; };
+		3512919A197CDF0200569089 /* EPCYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPCYTableViewController.h; sourceTree = "<group>"; };
+		3512919B197CDF0200569089 /* EPCYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPCYTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +81,11 @@
 			children = (
 				3512917B197CDCE600569089 /* AppDelegate.h */,
 				3512917C197CDCE600569089 /* AppDelegate.m */,
-				3512917E197CDCE600569089 /* ViewController.h */,
-				3512917F197CDCE600569089 /* ViewController.m */,
 				35129181197CDCE600569089 /* Main.storyboard */,
 				35129184197CDCE600569089 /* Images.xcassets */,
 				35129177197CDCE600569089 /* Supporting Files */,
+				3512919A197CDF0200569089 /* EPCYTableViewController.h */,
+				3512919B197CDF0200569089 /* EPCYTableViewController.m */,
 			);
 			path = "Challenge 6";
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35129180197CDCE600569089 /* ViewController.m in Sources */,
+				3512919C197CDF0200569089 /* EPCYTableViewController.m in Sources */,
 				3512917D197CDCE600569089 /* AppDelegate.m in Sources */,
 				3512917A197CDCE600569089 /* main.m in Sources */,
 			);

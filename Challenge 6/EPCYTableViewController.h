@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EPCYTableViewController.h
 //  Challenge 6
 //
 //  Created by Gauthier Delmee on 21/07/2014.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface EPCYTableViewController : UITableViewController
 
 @end
-
